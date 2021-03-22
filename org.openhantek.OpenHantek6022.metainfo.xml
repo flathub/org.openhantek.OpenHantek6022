@@ -17,7 +17,7 @@
     </p>
 
     <p>
-      Note: after installing you will need to add the some required udev rules
+      Note: after installing you will need to add some required udev rules
       to your system for it to work. Please see the section titled
       "Run OpenHantek6022" on this project's GitHub page for details on how to
       do this.
