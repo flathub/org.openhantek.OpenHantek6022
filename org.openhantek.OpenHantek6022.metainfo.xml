@@ -31,6 +31,15 @@
   </screenshots>
 
   <releases>
+    <release version="3.2.1" date="2021-04-05">
+      <description>
+        <ul>
+          <li>Two new interpolation modes: step and sinc</li>
+          <li>Fix Windows issue with cyrillic user names</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="3.2" date="2021-02-28" />
   </releases>
 </component>
