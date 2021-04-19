@@ -32,5 +32,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/OpenHantek/OpenHantek6022
-        tag: "3.2.1"
-        commit: "82a7e1a87e54d23384df5cefaab806e24a574ab1"
+        tag: "3.2.2"
+        commit: "dcac3f7b57bba48f30955bd9ec58df2b2bf7c21d"
