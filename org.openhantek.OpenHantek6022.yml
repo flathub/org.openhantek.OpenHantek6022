@@ -11,6 +11,8 @@ finish-args:
   - --socket=wayland
   # needed to get access to scope on usb
   - --device=all
+  # needed otherwise you get weird graphical glitches on wayland
+  - --env=QT_QPA_PLATFORM=xcb
 rename-desktop-file: OpenHantek.desktop
 rename-icon: OpenHantek
 cleanup:
