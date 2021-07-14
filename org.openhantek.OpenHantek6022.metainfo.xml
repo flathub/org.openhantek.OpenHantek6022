@@ -31,6 +31,16 @@
   </screenshots>
 
   <releases>
+    <release version="3.2.4" date="2021-07-14">
+      <description>
+        <ul>
+          <li>Possibility to select Fusion style in options menu (fits on 1280x720 screen)</li>
+          <li>Select calibration frequency faster from ComboBox</li>
+          <li>Chinese translation</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="3.2.3" date="2021-05-24" />
     <release version="3.2.2" date="2021-04-19" />
 
