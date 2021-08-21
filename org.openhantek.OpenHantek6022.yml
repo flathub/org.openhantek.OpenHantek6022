@@ -34,5 +34,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/OpenHantek/OpenHantek6022
-        tag: "3.2.4"
-        commit: "7483fb2f9b86fc8df6d4457e74c854cfc1f42373"
+        tag: "unstable"
