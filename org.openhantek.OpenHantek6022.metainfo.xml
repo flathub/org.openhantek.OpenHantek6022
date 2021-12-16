@@ -31,6 +31,17 @@
   </screenshots>
 
   <releases>
+    <release version="3.2.5" date="2021-12-16">
+      <description>
+        <ul>
+          <li>Updating the development system to the latest Debian stable version (bullseye).</li>
+          <li>Updates for Qt 5.15 (from bullseye).</li>
+          <li>Many small GUI improvements / fixes (thanks ericfont).</li>
+          <li>User selectable themes (auto/light/dark).</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="3.2.4" date="2021-07-14">
       <description>
         <ul>
