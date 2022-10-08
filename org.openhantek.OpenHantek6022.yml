@@ -1,7 +1,7 @@
 app-id: org.openhantek.OpenHantek6022
 # for qt libs
 runtime: org.kde.Platform
-runtime-version: "5.15-21.08"
+runtime-version: 5.15-21.08
 sdk: org.kde.Sdk
 command: OpenHantek
 finish-args:
@@ -34,8 +34,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/OpenHantek/OpenHantek6022
-        tag: "3.3.0"
-        commit: "b46ab64866477a37fb5478dcac5742a0d42263b3"
+        tag: 3.3.1
+        commit: b3afdec949c6f6a9c5e22a297a54cd32c8dc3603
         x-checker-data:
           type: git
-          tag-pattern: "^([\\d.]+)$"
+          tag-pattern: ^([\d.]+)$
