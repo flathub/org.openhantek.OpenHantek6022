@@ -5,10 +5,8 @@ runtime-version: 5.15-21.08
 sdk: org.kde.Sdk
 command: OpenHantek
 finish-args:
-  # allow displaying on x11 and wayland
   - --share=ipc
-  - --socket=fallback-x11
-  - --socket=wayland
+  - --socket=x11
   # needed to get access to scope on usb
   - --device=all
   # needed otherwise you get weird graphical glitches on wayland
