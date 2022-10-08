@@ -36,3 +36,6 @@ modules:
         url: https://github.com/OpenHantek/OpenHantek6022
         tag: "3.3.0"
         commit: "b46ab64866477a37fb5478dcac5742a0d42263b3"
+        x-checker-data:
+          type: git
+          tag-pattern: "^([\\d.]+)$"
