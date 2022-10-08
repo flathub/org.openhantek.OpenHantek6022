@@ -7,12 +7,10 @@ command: OpenHantek
 finish-args:
   # allow displaying on x11 and wayland
   - --share=ipc
-  - --socket=fallback-x11
+  - --socket=x11
   - --socket=wayland
   # needed to get access to scope on usb
   - --device=all
-  # needed otherwise you get weird graphical glitches on wayland
-  - --env=QT_QPA_PLATFORM=xcb
 rename-desktop-file: OpenHantek.desktop
 rename-icon: OpenHantek
 
