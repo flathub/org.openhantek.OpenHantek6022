@@ -7,7 +7,7 @@ command: OpenHantek
 finish-args:
   # allow displaying on x11 and wayland
   - --share=ipc
-  - --socket=x11
+  - --socket=fallback-x11
   - --socket=wayland
   # needed to get access to scope on usb
   - --device=all
@@ -15,8 +15,6 @@ finish-args:
   - --env=QT_QPA_PLATFORM=xcb
 rename-desktop-file: OpenHantek.desktop
 rename-icon: OpenHantek
-cleanup:
-  - /lib/debug
 
 modules:
   - shared-modules/libusb/libusb.json
