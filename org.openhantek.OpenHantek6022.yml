@@ -30,8 +30,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/OpenHantek/OpenHantek6022
-        tag: 3.3.2.1
-        commit: de9d201230779b1a2e2e6d186238b8508633ab6b
+        tag: 3.3.2.2
+        commit: 09ca7b01149c3b82e859328715cca35a75a9df6a
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
