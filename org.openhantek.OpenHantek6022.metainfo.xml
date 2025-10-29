@@ -24,9 +24,26 @@
     </p>
   </description>
 
+  <developer id="org.openhantek">
+    <name>OpenHantek</name>
+  </developer>
+
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/master/docs/images/screenshot_mainwindow.png</image>
+      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/refs/heads/main/docs/images/screenshot_mainwindow.png</image>
+      <caption>Main window</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/refs/heads/main/docs/images/screenshot_mainwindow_dark.png</image>
+      <caption>Main window dark mode</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/refs/heads/main/docs/images/screenshot_mainwindow_with_zoom.png</image>
+      <caption>Main window with zoom</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/refs/heads/main/docs/images/screenshot_demo_mode.png</image>
+      <caption>Demo mode</caption>
     </screenshot>
   </screenshots>
 
