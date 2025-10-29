@@ -10,7 +10,7 @@ finish-args:
   # needed to get access to scope on usb
   - --device=all
   # needed to save screenshots and settings
-  - --filesystem=home
+  - --filesystem=xdg-documents
 rename-desktop-file: org.openhantek.OpenHantek.desktop
 rename-icon: OpenHantek
 
