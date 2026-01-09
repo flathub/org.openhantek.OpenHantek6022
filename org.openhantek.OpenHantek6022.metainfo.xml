@@ -31,19 +31,19 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/refs/heads/main/docs/images/screenshot_mainwindow.png</image>
+      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/c58e155fa1a1d78a5f3d5bab6c3e80098577bb15/docs/images/screenshot_mainwindow.png</image>
       <caption>Main window</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/refs/heads/main/docs/images/screenshot_mainwindow_dark.png</image>
+      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/c58e155fa1a1d78a5f3d5bab6c3e80098577bb15/docs/images/screenshot_mainwindow_dark.png</image>
       <caption>Main window dark mode</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/refs/heads/main/docs/images/screenshot_mainwindow_with_zoom.png</image>
+      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/c58e155fa1a1d78a5f3d5bab6c3e80098577bb15/docs/images/screenshot_mainwindow_with_zoom.png</image>
       <caption>Main window with zoom</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/refs/heads/main/docs/images/screenshot_demo_mode.png</image>
+      <image>https://raw.githubusercontent.com/OpenHantek/OpenHantek6022/c58e155fa1a1d78a5f3d5bab6c3e80098577bb15/docs/images/screenshot_demo_mode.png</image>
       <caption>Demo mode</caption>
     </screenshot>
   </screenshots>
