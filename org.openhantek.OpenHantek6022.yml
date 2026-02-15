@@ -17,18 +17,10 @@ cleanup:
   - /share/doc
 
 modules:
-  - shared-modules/libusb/libusb.json
-
-  - name: appdata
-    buildsystem: simple
-    build-commands:
-      - install -Dt $FLATPAK_DEST/share/metainfo/ org.openhantek.OpenHantek6022.metainfo.xml
-    sources:
-      - type: file
-        path: org.openhantek.OpenHantek6022.metainfo.xml
-
   - name: openhantek
     buildsystem: cmake
+    post-install:
+      - install -Dt $FLATPAK_DEST/share/metainfo/ org.openhantek.OpenHantek6022.metainfo.xml
     sources:
       - type: git
         url: https://github.com/OpenHantek/OpenHantek6022
@@ -37,3 +29,5 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
+      - type: file
+        path: org.openhantek.OpenHantek6022.metainfo.xml
